@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>习概作业</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>祝老师新年快乐</h1>
+        <video controls>
+            <source src="xigai.mp4" type="video/mp4">
+            您的浏览器不支持视频播放。
+        </video>
+        <style>
+            .scroll-container {
+                overflow: hidden;
+                white-space: nowrap;
+                margin-top: 15px;
+                padding: 10px 0;
+            }
+            .scroll-text {
+                display: inline-block;
+                color: #666;
+                font-size: 18px;
+                font-weight: 500;
+                animation: scroll 20s linear infinite;
+            }
+            @keyframes scroll {
+                0% { transform: translateX(100%); }
+                100% { transform: translateX(-100%); }
+            }
+        </style>
+        <div class="scroll-container">
+            <div class="scroll-text">
+                网页创作：曾文 | 视频剪辑：叶家昌，江家乐，曾文 | 视频内容：曾文，万亮亮，杨文涛，张惠彬，黄启文 | 友情参演：林俊宇
+            </div>
+        </div>
+    </div>
+</body>
+</html>
